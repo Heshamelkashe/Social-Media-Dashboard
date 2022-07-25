@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom file style page  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <section class="top_section">
+            <div class="first_header">
+                <div class="header_left">
+                <h1>Social Media Dashboard</h1>
+                <p>Total Followers: 23,004</p>
+                </div>
+                <div class="header_right">
+                <p>Dark Mode</p>
+                <label class="check_label" onclick="chang()">
+                    <span class="checked"></span>
+                </label>
+                </div>
+            </div>
+            <div class="last_header">
+                <div class="facebook">
+                <div class="link">
+                    <img src="images/icon-facebook.svg" alt="" />
+                    <span>@nathanf</span>
+                </div>
+                <div class="calc" data-goal="70">0</div>
+                <p>FOLLOWERS</p>
+                <span class="span_Today"
+                    ><img src="images/icon-up.svg" /> 12 Today</span
+                >
+                </div>
+                <div class="twitter">
+                <div class="link">
+                    <img src="images/icon-twitter.svg" alt="" />
+                    <span>@nathanf</span>
+                </div>
+                <div class="calc" data-goal="200">0</div>
+                <p>FOLLOWERS</p>
+                <span class="span_Today"
+                    ><img src="images/icon-up.svg" /> 102 Today</span
+                >
+                </div>
+                <div class="instagram">
+                <div class="link">
+                    <img src="images/icon-instagram.svg" alt="" />
+                    <span>@realnathanf</span>
+                </div>
+                <div class="calc" data-goal="87">0</div>
+                <p>FOLLOWERS</p>
+                <span class="span_Today"
+                    ><img src="images/icon-up.svg" /> 109 Today</span
+                >
+                </div>
+                <div class="youtube">
+                <div class="link">
+                    <img src="images/icon-youtube.svg" alt="" />
+                    <span>Nathan F.</span>
+                </div>
+                <div class="calc" data-goal="500">0</div>
+                <p>SUBSCRIBERS</p>
+                <span class="span_Today"
+                    ><img src="images/icon-down.svg" /> 150 Today</span
+                >
+                </div>
+            </div>
+        </section>
+        <section class="bottom_section">
+        <h3>Overview - Today</h3>
+        <div class="items">
+            <!-- facebook_views  -->
+            <div class="item">
+            <p>
+                <span>Page Views</span>
+                <img src="images/icon-facebook.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>87</span>
+                <p><img src="images/icon-up.svg" alt="icon-up-view" />3%</p>
+            </div>
+            </div>
+            <!-- facebook_links  -->
+            <div class="item">
+            <p>
+                <span>Likes</span>
+                <img src="images/icon-facebook.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>52</span>
+                <p class="link">
+                <img src="images/icon-down.svg" alt="icon-up-view" />2%
+                </p>
+            </div>
+            </div>
+            <!-- instagram_views  -->
+            <div class="item">
+            <p>
+                <span>Page Views</span>
+                <img src="images/icon-instagram.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>5462</span>
+                <p><img src="images/icon-up.svg" alt="icon-up-view" />2257%</p>
+            </div>
+            </div>
+            <!-- instagram_links  -->
+            <div class="item">
+            <p>
+                <span>Likes</span>
+                <img src="images/icon-instagram.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>52K</span>
+                <p class="link">
+                <img src="images/icon-down.svg" alt="icon-up-view" />1375%
+                </p>
+            </div>
+            </div>
+            <!-- twitter_views  -->
+            <div class="item">
+            <p>
+                <span>Retweets</span>
+                <img src="images/icon-twitter.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>117</span>
+                <p><img src="images/icon-up.svg" alt="icon-up-view" />303%</p>
+            </div>
+            </div>
+            <!-- twitter_links  -->
+            <div class="item">
+            <p>
+                <span>Likes</span>
+                <img src="images/icon-twitter.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>507</span>
+                <p class="link">
+                <img src="images/icon-down.svg" alt="icon-up-view" />553%
+                </p>
+            </div>
+            </div>
+            <!-- youtube_views  -->
+            <div class="item">
+            <p>
+                <span>Retweets</span>
+                <img src="images/icon-youtube.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>1407</span>
+                <p><img src="images/icon-up.svg" alt="icon-up-view" />12%</p>
+            </div>
+            </div>
+            <!-- youtube_links  -->
+            <div class="item">
+            <p>
+                <span>Likes</span>
+                <img src="images/icon-youtube.svg" alt="facebook" />
+            </p>
+            <div class="toogrl_views">
+                <span>107</span>
+                <p class="link">
+                <img src="images/icon-down.svg" alt="icon-up-view" />11%
+                </p>
+            </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <!-- custom file main js page  -->
+    <script src="app.js"></script>
+  </body>
+</html>
